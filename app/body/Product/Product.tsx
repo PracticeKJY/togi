@@ -1,9 +1,5 @@
 "use client"
 
-import foodiverse from "@/public/desktop-foodiverse.png"
-import iden from "@/public/desktop-iden.png"
-import gigakitchen from "@/public/desktop-gigakitchen.png"
-
 import description from "./description"
 import ProductItem from "./ProductItem"
 
@@ -15,7 +11,7 @@ const Product = () => {
           <h2 className="body-h2-nonBorder">PRODUCTS</h2>
         </div>
         <div className="flex flex-col justify-center">
-          {description.map((list, index) => {
+          {description.map((list) => {
             return (
               <ProductItem
                 key={list.id}
@@ -27,9 +23,6 @@ const Product = () => {
               />
             )
           })}
-          {/* <ProductItem titleNo={"01"} src={foodiverse} title={"foodiverse"} />
-          <ProductItem titleNo={"02"} src={iden} title={"iden"} />
-          <ProductItem titleNo={"03"} src={gigakitchen} title={"gigakitchen"} /> */}
         </div>
       </div>
     </article>
