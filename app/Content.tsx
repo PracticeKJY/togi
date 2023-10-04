@@ -1,12 +1,5 @@
 "use client"
 
-import logo from "@/public/logo-d-white.png"
-import foodiverse from "@/public/desktop-foodiverse.png"
-import iden from "@/public/desktop-iden.png"
-import gigakitchen from "@/public/desktop-gigakitchen.png"
-
-import Image from "next/image"
-import Link from "next/link"
 import FakeBackground from "./FakeBackground"
 import Header from "./Header"
 import Main from "./body/Main"
